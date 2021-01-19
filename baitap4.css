@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 706px;
+    background-color: white;
+    margin: 15px auto;
+    padding: 20px;
+}
+h2 {
+    font-size: 125%;
+    margin-bottom: .5em;
+    clear: both;
+}
+nav {
+    margin-bottom: 2em;
+}
+#menu1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+#menu1 ul li {
+    float: left;
+}
+#menu1 ul li a {
+    
+    text-align: center;
+    display: block;
+    width: 176px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+#menu1 ul li.lastitem a {
+    width: 178px;
+}
+#menu1 ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#menu1 ul ul li {
+    float: none;
+}
+#menu1 ul li:hover > ul {
+    display: block;
+}
+#menu1 > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#menu1 ul li  :hover, #menu1 ul li  :focus {
+    background-color: gray;
+}

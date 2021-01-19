@@ -1,0 +1,242 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 96%;
+  max-width: 1200px;
+  background-color: white;
+  margin: 15px auto;
+  padding: 15px 0;
+  border: 1px solid black;
+  display: grid;
+  grid-template: repeat(4, auto) / 1fr;
+  gap: 1.5em;
+  grid-template-areas:
+      "head"
+      "navi"
+      "main"
+      "foot";
+}
+article,
+aside,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+.images1 {
+    line-height: 177%;
+}
+article,
+aside {
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 0.875em; /* 14px */
+  padding-bottom: 0.5em;
+  line-height: 130%;
+}
+.tn2 {
+    border-bottom: 2px solid;
+}
+h4 {
+    margin-top: 7px;
+  }
+  h5 {
+    margin-top: -18px;
+  }
+p {
+    font-size: 17px;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #931420;
+}
+a:hover,
+a:focus {
+  color: black;
+}
+header {
+     width: 100%;
+     padding-bottom: 2em;
+}
+header img {
+    width: 8.0808%;
+    max-width: 80px;
+    min-width: 40px;
+    float: left;
+    margin-left: 2.0202%;
+}
+header h2 {
+    font-size: 2.15em;
+    color: #f2972e;
+    text-shadow: 2px 3px 0 black;
+    margin-left: 12.1212%;
+    margin-bottom: 0.25em;
+}
+header h3 {
+    font-size: 1.25em;
+    font-style: italic;
+    margin-left: 12.1212%;
+}
+#nav_menu ul {
+    display: grid;
+    grid-template: auto / repeat(5, 1fr);
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color:#facd8a;
+    margin: 0;
+    padding: 0;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: 0.7em 0;
+    background-color: #facd8a;
+}
+main {
+    display: grid;
+    grid-template: auto / 1fr 74%;
+    padding: 10px;
+  }
+.images {
+    display: flex;
+}
+.images2 {
+    padding-top: 11px;
+}
+footer p {
+    font-size: 0.75em; /* 12px */
+    text-align: right;
+    margin-right: 2.0202%; /* 20px */
+  }
+/* hide the mobile menu initially */
+#mobile_menu {
+  display: none;
+}
+
+.slicknav_menu {
+  font-size: 16px;
+  box-sizing: border-box;
+  background: #4c4c4c;
+  padding: 5px;
+}
+
+
+element.style {
+  outline: none;
+}
+
+.slicknav_btn {
+  margin: 5px 5px 6px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #222;
+}
+.slicknav_menu * {
+  box-sizing: border-box;
+}
+.slicknav_btn {
+  position: relative;
+  display: block;
+  vertical-align: middle;
+  float: right;
+  padding: 0.438em 0.625em 0.438em 0.625em;
+  line-height: 1.125em;
+  cursor: pointer;
+}
+.slicknav_menu .slicknav_menutxt {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 1px 3px #000;
+}
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left;
+}
+.slicknav_menu .slicknav_menutxt {
+  display: block;
+  line-height: 1.188em;
+  float: left;
+}
+.slicknav_menu:before {
+  content: " ";
+  display: table;
+}
+.slicknav_menu:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+#nav_menu ul {
+  display: flex;
+  flex-basis: 100%;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 767px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+  body {
+  
+      width: 100%;
+      margin: 0;
+      border: none;
+      gap: 0;
+}
+  
+header {
+      padding-bottom: 1.5em;
+      display: grid;
+      grid-template: repeat(3, auto) / 1fr;
+      gap: 0.3em;
+      justify-items: center;
+      grid-template-areas: "logo" "heading-top" "heading-bottom";
+  }
+  
+#nav_menu {
+  display: none;
+}
+#mobile_menu {
+  display: block;
+}
+.slicknav_menu {
+  background-color: #4f8f1a !important;
+}
+main {
+  margin: 0;
+  grid-template: auto auto / 1fr;
+  gap: 0;
+  grid-template-areas:
+    "side"
+    "arti";
+}
+.images1 {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+footer  p {
+  text-align: center;
+  border-top: 2px solid;
+  padding-top: 8px;
+  margin-right: -1px;
+}
+}
+}
+
+ 
+  

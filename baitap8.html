@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./baitap8.css"/>
+    <title>Document</title>
+    <link rel="shortcut icon" href="../anhhuydn/images/town_hall_logo.gif">
+    <link rel="stylesheet" href="./plugin/SlickNav/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="./plugin/SlickNav/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+    $("#nav_menu").slicknav({ prependTo: "#mobile_menu" });
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <img src="./images/town_hall_logo.gif" alt="Town Hall Logo" >
+            <h2>San Joaquin Valley Town Hall</h2>
+            <h3>Celebrating our <em>75<sup>th</sup></em> Year</h3>
+    </header>
+    <nav id="mobile_menu">
+         <div class="slicknav_menu">
+              <a href="#" aria-haspopup="true" role="button" tabindex="0" class="clicknav_btn clicknav_collapsed" style=""></a>
+              <span class="slicknav_menutxt">MENU</span>
+               <span class="clivknav_icon">
+               <span class="clicknav_icon-bar"></span>
+               <span class="clicknav_icon-bar"></span>
+               <span class="clicknav_icon-bar"></span>
+               </span>
+               <nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                  <ul>
+                      <li><a class="current" href="index.html" role="menuitem">home</a></li>
+                      <li><a href="speakers.html" role="menuyitem">speakets</a></li>
+                      <li><a href="luncheohs.html" role="menuitem">luncheohs</a></li>
+                      <li><a href="tickets.html" role="menuitem">tickets</a></li>
+                      <li class="lastitem">
+                          <a href="aboutus.html" role="menuitem">about us</a>
+                    </li>
+                  </ul>
+               </nav>
+            </div>
+    </nav>
+    <nav id="menu">
+        <ul>
+            <li><a class="current" href="">honme</a></li>
+            <li><a href="">speakers</a></li>
+            <li><a href="">luncheohs</a></li>
+            <li><a href="">tickets</a></li>
+            <li><a class="lastitem" href="">about us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h2>Guest speakers</h2>
+            <h3>october<br>
+            <a href="../speakers/toobin.html">Jeffrey toobin</a> </h3>
+            <img src="../toobin75.jpg" alt="Jeffrey toobin">
+            <h3>noverbem<br>
+                <a href="../speakers/sorkin.html">Andrew Ross sorkin</a> </h3>
+                <img src="../anhhuydn/images/sorkin75.jpg" alt="Andrew Ross sorkin">
+                <h3>January<br>
+                    <a href="../speakers/Amy.html">Amy chua</a> </h3>
+                    <img src="../anhhuydn/images/sorkin75.jpg" alt="Andrew Ross sorkin">
+
+        </div>
+    </main>
+    
+</body>
+</html>

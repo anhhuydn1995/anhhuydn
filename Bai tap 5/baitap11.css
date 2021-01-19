@@ -1,0 +1,25 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 1em;
+  }
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  figure {
+    float: right;
+    margin: 0 1em 1em 0;
+  }
+  figcaption {
+    /*border-bottom: 1px solid black; */
+    text-align: center;
+  }
+  img {
+    height: 180px;
+    width: 300px;
+  }
+  #last {
+    clear: both;
+  }

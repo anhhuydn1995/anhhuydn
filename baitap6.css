@@ -1,0 +1,20 @@
+html {
+ /* style for the type selector */
+/* =========================== */
+background-image: -moz-linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: -webkit-linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: -o-linear-gradient(to bottom, white 0%, #facd8a 100%);
+background-image: linear-gradient(to bottom, white 0%, #facd8a 100%);
+}
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 96%;
+max-width: 1200px;
+background-color: white;
+margin: 15px auto;
+padding: 15px 0;
+border: 1px solid black;
+}
+    
+    
