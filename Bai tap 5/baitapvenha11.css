@@ -20,7 +20,9 @@ body {
 .tomau {
     background-image: -webkit-linear-gradient(45deg, red 0%, white 50%, blue 100%);
 }
-}
+.daugach {
+    text-decoration: none;
+  }
 header {
     width: 100%;
     padding-bottom: 2em;
@@ -132,7 +134,7 @@ main {
 }
 footer {
     text-align: center;
-    border-top: 2px solid;
+    
     background-color: black;
     color: white;
 }

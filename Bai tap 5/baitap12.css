@@ -17,13 +17,15 @@ body {
       "foot";
 }
 .tomau {
-  background-image: -webkit-linear-gradient(45deg, red 0%, white 50%, blue 100%);
+  background-image: -webkit-linear-gradient(45deg,grey 0%, white 50%, blue 100%);
 }
 header {
   width: 100%;
   padding-bottom: 2em;
 }
-
+.daugach {
+  text-decoration: none;
+}
 header img {
  width: 8.0808%;
  max-width: 80px;
@@ -128,15 +130,14 @@ tbody {
 .left1 {
   padding-left: 51px;
 }
-td {
-  padding: 5px;
-}
+
 th:first-child,
 td:nth-child(3) {
   text-align: center;
 }
 .duongvien {
   border-bottom: 2px solid;
+  padding-left: 52px;
 }
 th:first-child,
 td:nth-child(4) {
@@ -150,7 +151,9 @@ td:nth-child(4) {
 }
 footer {
   text-align: center;
-  
   background-color: black;
   color: white;
+}
+th {
+  padding-top: 8px;
 }
